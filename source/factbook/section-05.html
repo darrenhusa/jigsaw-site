@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>100% Stacked Bar Chart</title>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js" integrity="sha512-s+xg36jbIujB2S2VKfpGmlC3T5V2TF3lY48DX7u2r9XzGzgPsa6wTpOQA7J9iffvdeBN0q9tKzRxVxw1JviZPg==" crossorigin="anonymous"></script> -->
+  <script src="chart.js/dist/Chart.min.js"></script>
+  <!-- <script src="node_modules/chart.js/dist/Chart.min.js"></script> -->
+  <!-- <script src="chartjs-plugin-stacked100/src/index.js"></script> -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-annotation/0.5.7/chartjs-plugin-annotation.min.js" integrity="sha512-9hzM/Gfa9KP1hSBlq3/zyNF/dfbcjAYwUTBWYX+xi8fzfAPHL3ILwS1ci0CTVeuXTGkRAWgRMZZwtSNV7P+nfw==" crossorigin="anonymous"></script> -->
+</head>
+<body>
+  <h1>100% Stacked Bar Chart</h1>
+  <canvas id="100%-stacked-bar" width="800" height="450"></canvas>
+
+  <script>
+    new Chart(document.getElementById("100%-stacked-bar"), {
+      type: "horizontalBar",
+      data: {
+        labels: ["Foo", "Bar"],
+        datasets: [
+          { label: "bad", data: [5, 25], backgroundColor: "rgba(244, 143, 177, 0.6)" },
+          { label: "better", data: [15, 10], backgroundColor: "rgba(255, 235, 59, 0.6)" },
+          { label: "good", data: [10, 8], backgroundColor: "rgba(100, 181, 246, 0.6)" }
+        ]
+      },
+      options: {
+        plugins: {
+          stacked100: { enable: true }
+        }
+      }
+    });
+
+  </script>
+</body>
+</html>

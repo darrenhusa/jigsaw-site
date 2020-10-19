@@ -19,6 +19,9 @@ return [
     'Section 04' => [
         'url' => 'factbook/section-04',
     ],
+    'Section 05' => [
+        'url' => 'factbook/section-05',
+    ],
 
     'CCSJ Home' => 'http://www.ccsj.edu',
 ];

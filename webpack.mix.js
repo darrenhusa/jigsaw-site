@@ -21,7 +21,8 @@ mix.js('source/_assets/js/main.js', 'js')
 mix.js('source/_assets/js/bar-chart.js', 'js')
    .js('source/_assets/js/bar-chart-grouped.js', 'js')
    .js('source/_assets/js/line.js', 'js')
-   .js('source/_assets/js/pie-chart.js', 'js');
+   .js('source/_assets/js/pie-chart.js', 'js')
+   .js('source/_assets/js/100%-stacked-bar-chart.js', 'js');
 
 
 // mix.scripts([

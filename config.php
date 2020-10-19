@@ -5,7 +5,7 @@ use Illuminate\Support\Str;
 return [
     'baseUrl' => '',
     'production' => false,
-    'siteName' => 'FactBook',
+    'siteName' => 'FactBook 2020-21',
     'siteDescription' => 'brought to you by CCSJ IR',
 
     // Algolia DocSearch credentials
