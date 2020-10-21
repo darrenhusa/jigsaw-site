@@ -1,8 +1,8 @@
 <?php
 
 return [
-  '0 - Table of Contents' => [
-      'url' => '#',
+  '0 - List of Figures/Tables' => [
+      'url' => 'factbook/list_of_figures_and_tables',
   ],
   '1 - Enrollment' => [
         'url' => 'factbook/section-01',
