@@ -1,27 +1,46 @@
 <?php
 
 return [
-    'Section 01' => [
+  '0 - Table of Contents' => [
+      'url' => '#',
+  ],
+  '1 - Enrollment' => [
         'url' => 'factbook/section-01',
         // 'children' => [
-        //     'Customizing Your Site' => 'docs/customizing-your-site',
-        //     'Navigation' => 'docs/navigation',
-        //     'Algolia DocSearch' => 'docs/algolia-docsearch',
-        //     'Custom 404 Page' => 'docs/custom-404-page',
+        //     'Figure 1 - Historical CCSJ Headcounts' => '',
+        //     'Figure 2 - Fall 2020 Total College/Detailed Enrollment Report' => '',
+        //     'Figure 3 - TRAD Applications by Athletic Status' => '',
+        //     'Figure 4 - TRAD Accepted by Athletic Status' => '',
+        //     'Figure 5 - TRAD Final Accepted by Athletic Status' => '',
+        //     'Figure 6 - TRAD Regsitered by Athletic Status' => '',
+        //     'Figure 7 - TRAD Enrolled by Athletic Status' => '',
+        //     'Table 1 - Total College Enrollment' => '',
+        //     'Table 2 - Full-time Undergraduates - First Majors - Traditional Programs' => '',
+        //     'Table 3 - Part-time Undergraduates - First Majors - Traditional Programs' => '',
+        //     'Figure 8 - Fall 2020 TRAD Enrollment by Program and by Entry-type (numbers)' => '',
+        //     'Figure 9 - Fall 2020 TRAD Enrollment by Program and by Entry-type (percentage)' => '',
+        //     'Figure 10 - TRAD Programs - Number of Part-time Students' => '',
+        //     'Table 4 - Graduate Students by Major' => '',
+        //     'Table 5 - Undergraduates by Gender and by Full-time/Part-time (numbers, percentages)' => '',
+        //     'Table 6 - Undergraduates by Ethnicity and by Full-time/Part-time (numbers, percentages)' => '',
         // ],
     ],
-    'Section 02' => [
+    '2 - Retention Rates' => [
         'url' => 'factbook/section-02',
     ],
-    'Section 03' => [
+    '3 - Student Learning' => [
         'url' => 'factbook/section-03',
     ],
-    'Section 04' => [
+    '4 - Graduation Rates' => [
         'url' => 'factbook/section-04',
     ],
-    'Section 05' => [
-        'url' => 'factbook/section-05',
+    '5 - Job Placement' => [
+        'url' => '#',
     ],
 
-    'CCSJ Home' => 'http://www.ccsj.edu',
+    '6 - Profitability' => [
+        'url' => '#',
+    ],
+
+    'CCSJ Home' => '#',
 ];
