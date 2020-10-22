@@ -11,9 +11,24 @@
             @include('_nav.menu', ['items' => $page->navigation])
         </nav>
 
-        <div class="DocSearch-content w-full lg:w-3/5 break-words pb-16 lg:pl-4" v-pre>
+        <!-- <div class="DocSearch-content w-full lg:w-3/5 break-words pb-16 lg:pl-4" v-pre>
             @yield('content')
-        </div>
+        </div> -->
+
+        <div class="markdown bg-white w-full lg:max-w-md xl:max-w-lg md:mb-6 lg:mb-10 px-6 xl:px-10 pt-4 pb-8 font-normal sm:shadow md:rounded-lg">
+
+          @yield('content')
+
+                <div class="flex-1 hidden lg:flex pl-6">
+                  <nav role="aside" class="flex flex-col pl-2">
+                    @yield('right-sidebar-links')
+                </nav>
+              </div>
+
+            </div>
+
+
+
     </div>
 </section>
 @endsection
